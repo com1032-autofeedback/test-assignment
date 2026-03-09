@@ -4,6 +4,8 @@ public class lab_exercise_2 {
 
         // Getting the sizes using the hint
         int s_size = Short.SIZE;
+
+        
         
         // int c_size = Char.SIZE; // this gave me an error so I checked stackoverflow, it's Character
         int c_size = Character.SIZE;
