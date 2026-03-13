@@ -12,7 +12,7 @@ public class lab_exercise_2 {
         
         // Printing them out. 
         // Wait, Short.SIZE prints 16 instead of 2. I think it gives bits instead of bytes?
-        // I have to divide by 8 to get the actual bytes.
+        // I have to divide by 8 to get the actual bytes. 
         
         System.out.println("Size of short: " + s_size / 8 + " bytes");
         System.out.println("Size of char: " + c_size / 8 + " bytes");
