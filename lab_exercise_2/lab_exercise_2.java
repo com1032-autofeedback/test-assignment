@@ -1,3 +1,4 @@
+package lab_exercise_2;
 public class lab_exercise_2 { 
     
     public static void main(String[] args) {
