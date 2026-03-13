@@ -16,7 +16,7 @@ public class lab_exercise_2 {
         
         System.out.println("Size of short: " + s_size / 8 + " bytes");
         System.out.println("Size of char: " + c_size / 8 + " bytes");
-        System.out.println("Size of int: " + Integer.SIZE / 8 + " bytes");
+        System.out.println("Size of int: " + Integer.SIZE / 8 + " bytes ");
         
         // I'll just do the rest directly in the print statement
         System.out.println("Size of long: " + Long.SIZE + " bytes"); // Oops, forgot to divide by 8
