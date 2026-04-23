@@ -29,4 +29,3 @@ public class lab_exercise_2 {
     }
 }
 
-
