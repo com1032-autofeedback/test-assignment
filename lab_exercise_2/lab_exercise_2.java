@@ -1,6 +1,7 @@
 package lab_exercise_2;
 public class lab_exercise_2 { 
     
+	// Main function for the task
 	public class Main {
 	    public static void main(String[] args) {
 	        java.io.File f = new java.io.File("file.txt");
@@ -13,5 +14,6 @@ public class lab_exercise_2 {
 	    }
 	}
 }
+
 
 
