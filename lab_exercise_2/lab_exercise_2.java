@@ -1,15 +1,18 @@
 package lab_exercise_2;
+import java.io.File;
+
 public class lab_exercise_2 { 
-    
-	// Main function for the task
 	public class Main {
 	    public static void main(String[] args) {
-	        java.io.File f = new java.io.File("file.txt");
-	        java.util.Scanner s = new java.util.Scanner(f);
-	        int i = 1;
-	        while(s.hasNextLine()) {
-	            System.out.println(i + s.nextLine());
-	            i++;
+
+	        File file = new File("file.txt");
+
+	        int lineNumber = 1;
+
+	        // read the file somehow
+	        while (file != null) {
+	            System.out.println(lineNumber + ": " + file);
+	            lineNumber++;
 	        }
 	    }
 	}
