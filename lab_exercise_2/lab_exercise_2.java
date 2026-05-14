@@ -1,21 +1,24 @@
 package lab_exercise_2;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 public class lab_exercise_2 { 
-	public class Main {
-	    public static void main(String[] args) {
-
-	        File file = new File("file.txt");
-
-	        int lineNumber = 1;
-
-	        // read the file somehow
-	        while (file != null) {
-	            System.out.println(lineNumber + ": " + file);
-	            lineNumber++;
-	        }
-	    }
-	}
+	public static void main(String[] args) {
+        File file = new File("file.txt");
+        int lineNumber = 1;
+        try {
+            Scanner reader = new Scanner(file);
+            while (reader.hasNextLine()) {
+                String line = reader.nextLine();
+                System.out.println(lineNumber + ": " + line);
+                lineNumber++;
+            }
+            reader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found.");
+        }
+    }
 }
 
 
