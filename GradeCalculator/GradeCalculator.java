@@ -40,3 +40,4 @@ public class GradeCalculator {
         return r;
     }
 }
+
